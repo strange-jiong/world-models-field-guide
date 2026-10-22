@@ -1,0 +1,49 @@
+<mxfile host="app.diagrams.net" agent="kiro-drawio-skill" type="device">
+  <diagram id="d1" name="Page-1">
+    <mxGraphModel dx="800" dy="600" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1141" pageHeight="640" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="t1" value="标准视频扩散" style="text;html=1;strokeColor=none;fillColor=none;align=right;verticalAlign=middle;whiteSpace=wrap;fontSize=13;fontFamily=Noto Sans CJK SC;fontStyle=1;fontColor=#334155;" vertex="1" parent="1">
+          <mxGeometry x="47.5" y="205" width="150" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="t2" value="Diffusion Forcing" style="text;html=1;strokeColor=none;fillColor=none;align=right;verticalAlign=middle;whiteSpace=wrap;fontSize=13;fontFamily=Noto Sans CJK SC;fontStyle=1;fontColor=#334155;" vertex="1" parent="1">
+          <mxGeometry x="47.5" y="307" width="150" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="n3" value="σ" style="rounded=1;absoluteArcSize=1;arcSize=8;whiteSpace=wrap;html=1;fillColor=#f4f5f7;strokeColor=#ccd2d9;strokeWidth=1.2;fontSize=13;fontFamily=Noto Sans CJK SC;fontColor=#3b4149;verticalAlign=middle;align=center;" vertex="1" parent="1">
+          <mxGeometry x="205" y="205" width="110" height="58" as="geometry" />
+        </mxCell>
+        <mxCell id="n4" value="σ" style="rounded=1;absoluteArcSize=1;arcSize=8;whiteSpace=wrap;html=1;fillColor=#f4f5f7;strokeColor=#ccd2d9;strokeWidth=1.2;fontSize=13;fontFamily=Noto Sans CJK SC;fontColor=#3b4149;verticalAlign=middle;align=center;" vertex="1" parent="1">
+          <mxGeometry x="331" y="205" width="110" height="58" as="geometry" />
+        </mxCell>
+        <mxCell id="n5" value="σ" style="rounded=1;absoluteArcSize=1;arcSize=8;whiteSpace=wrap;html=1;fillColor=#f4f5f7;strokeColor=#ccd2d9;strokeWidth=1.2;fontSize=13;fontFamily=Noto Sans CJK SC;fontColor=#3b4149;verticalAlign=middle;align=center;" vertex="1" parent="1">
+          <mxGeometry x="457" y="205" width="110" height="58" as="geometry" />
+        </mxCell>
+        <mxCell id="n6" value="σ" style="rounded=1;absoluteArcSize=1;arcSize=8;whiteSpace=wrap;html=1;fillColor=#f4f5f7;strokeColor=#ccd2d9;strokeWidth=1.2;fontSize=13;fontFamily=Noto Sans CJK SC;fontColor=#3b4149;verticalAlign=middle;align=center;" vertex="1" parent="1">
+          <mxGeometry x="583" y="205" width="110" height="58" as="geometry" />
+        </mxCell>
+        <mxCell id="n7" value="干净" style="rounded=1;absoluteArcSize=1;arcSize=8;whiteSpace=wrap;html=1;fillColor=#e7f5ea;strokeColor=#aed6b8;strokeWidth=1.2;fontSize=13;fontFamily=Noto Sans CJK SC;fontColor=#1f4a26;verticalAlign=middle;align=center;" vertex="1" parent="1">
+          <mxGeometry x="205" y="307" width="110" height="58" as="geometry" />
+        </mxCell>
+        <mxCell id="n8" value="干净" style="rounded=1;absoluteArcSize=1;arcSize=8;whiteSpace=wrap;html=1;fillColor=#e7f5ea;strokeColor=#aed6b8;strokeWidth=1.2;fontSize=13;fontFamily=Noto Sans CJK SC;fontColor=#1f4a26;verticalAlign=middle;align=center;" vertex="1" parent="1">
+          <mxGeometry x="331" y="307" width="110" height="58" as="geometry" />
+        </mxCell>
+        <mxCell id="n9" value="半噪" style="rounded=1;absoluteArcSize=1;arcSize=8;whiteSpace=wrap;html=1;fillColor=#fff7e0;strokeColor=#e6cf8c;strokeWidth=1.2;fontSize=13;fontFamily=Noto Sans CJK SC;fontColor=#6b5618;verticalAlign=middle;align=center;" vertex="1" parent="1">
+          <mxGeometry x="457" y="307" width="110" height="58" as="geometry" />
+        </mxCell>
+        <mxCell id="n10" value="纯噪声" style="rounded=1;absoluteArcSize=1;arcSize=8;whiteSpace=wrap;html=1;fillColor=#fcebe9;strokeColor=#eeb0a9;strokeWidth=1.2;fontSize=13;fontFamily=Noto Sans CJK SC;fontColor=#7a2c22;verticalAlign=middle;align=center;" vertex="1" parent="1">
+          <mxGeometry x="583" y="307" width="110" height="58" as="geometry" />
+        </mxCell>
+        <mxCell id="note11" value="整段共享一个噪声水平&lt;br&gt;→ 一次生成一整段，&lt;br&gt;没法逐帧接受新动作" style="rounded=1;absoluteArcSize=1;arcSize=8;whiteSpace=wrap;html=1;fillColor=#f4f5f7;strokeColor=#ccd2d9;strokeWidth=1;fontSize=12;fontFamily=Noto Sans CJK SC;fontColor=#3b4149;align=left;verticalAlign=middle;spacingLeft=10;spacingRight=8;" vertex="1" parent="1">
+          <mxGeometry x="721.6" y="205" width="215" height="58" as="geometry" />
+        </mxCell>
+        <mxCell id="note12" value="每帧独立噪声水平&lt;br&gt;→ 这正好就是自回归推理&lt;br&gt;时的样子，模型天生就会" style="rounded=1;absoluteArcSize=1;arcSize=8;whiteSpace=wrap;html=1;fillColor=#e7f5ea;strokeColor=#aed6b8;strokeWidth=1;fontSize=12;fontFamily=Noto Sans CJK SC;fontColor=#1f4a26;align=left;verticalAlign=middle;spacingLeft=10;spacingRight=8;" vertex="1" parent="1">
+          <mxGeometry x="721.6" y="307" width="215" height="58" as="geometry" />
+        </mxCell>
+        <mxCell id="t13" value="GameNGen 的「历史帧加噪」是补丁；Diffusion Forcing 把自回归能力直接写进训练目标" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;fontSize=12;fontFamily=Noto Sans CJK SC;fontStyle=1;fontColor=#334155;" vertex="1" parent="1">
+          <mxGeometry x="47.5" y="409" width="640" height="26" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

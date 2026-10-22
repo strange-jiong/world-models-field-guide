@@ -1,0 +1,37 @@
+<mxfile host="app.diagrams.net" agent="kiro-drawio-skill" type="device">
+  <diagram id="d1" name="Page-1">
+    <mxGraphModel dx="800" dy="600" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="650" pageHeight="396" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="band6" value="五个组件，全是 MLP" style="rounded=1;absoluteArcSize=1;arcSize=10;whiteSpace=wrap;html=1;fillColor=#fafbfc;strokeColor=#e5e9ed;strokeWidth=1;fontSize=11;fontFamily=Noto Sans CJK SC;fontStyle=1;fontColor=#3b4149;verticalAlign=top;align=left;spacingLeft=10;spacingTop=5;spacingBottom=5;" vertex="1" parent="1">
+          <mxGeometry x="18" y="0" width="294" height="356" as="geometry" />
+        </mxCell>
+        <mxCell id="n1" value="encoder　　z = h(o)" style="rounded=1;absoluteArcSize=1;arcSize=8;whiteSpace=wrap;html=1;fillColor=#e8f0fe;strokeColor=#aec5ea;strokeWidth=1.2;fontSize=13;fontFamily=Noto Sans CJK SC;fontColor=#1c3d6b;verticalAlign=middle;align=center;" vertex="1" parent="1">
+          <mxGeometry x="40" y="40" width="250" height="46" as="geometry" />
+        </mxCell>
+        <mxCell id="n2" value="dynamics　 ẑ′ = d(z, a)" style="rounded=1;absoluteArcSize=1;arcSize=8;whiteSpace=wrap;html=1;fillColor=#f2ecfa;strokeColor=#c6b3e2;strokeWidth=1.2;fontSize=13;fontFamily=Noto Sans CJK SC;fontColor=#45306b;verticalAlign=middle;align=center;" vertex="1" parent="1">
+          <mxGeometry x="40" y="102" width="250" height="46" as="geometry" />
+        </mxCell>
+        <mxCell id="n3" value="reward　　 r̂ = R(z, a)" style="rounded=1;absoluteArcSize=1;arcSize=8;whiteSpace=wrap;html=1;fillColor=#fdeede;strokeColor=#eec28c;strokeWidth=1.2;fontSize=13;fontFamily=Noto Sans CJK SC;fontColor=#7a4a12;verticalAlign=middle;align=center;" vertex="1" parent="1">
+          <mxGeometry x="40" y="164" width="250" height="46" as="geometry" />
+        </mxCell>
+        <mxCell id="n4" value="Q 集合　　 Q(z, a) × 5" style="rounded=1;absoluteArcSize=1;arcSize=8;whiteSpace=wrap;html=1;fillColor=#fdeede;strokeColor=#eec28c;strokeWidth=1.2;fontSize=13;fontFamily=Noto Sans CJK SC;fontColor=#7a4a12;verticalAlign=middle;align=center;" vertex="1" parent="1">
+          <mxGeometry x="40" y="226" width="250" height="46" as="geometry" />
+        </mxCell>
+        <mxCell id="n5" value="policy prior π(z)" style="rounded=1;absoluteArcSize=1;arcSize=8;whiteSpace=wrap;html=1;fillColor=#e7f5ea;strokeColor=#aed6b8;strokeWidth=1.2;fontSize=13;fontFamily=Noto Sans CJK SC;fontColor=#1f4a26;verticalAlign=middle;align=center;" vertex="1" parent="1">
+          <mxGeometry x="40" y="288" width="250" height="46" as="geometry" />
+        </mxCell>
+        <mxCell id="n7" value="损失 = ‖ẑ′ − sg(h_target(o′))‖²&lt;br&gt;　　　+ reward 误差 + TD 误差&lt;br&gt;&lt;br&gt;自监督一致性取代重建" style="rounded=1;absoluteArcSize=1;arcSize=8;whiteSpace=wrap;html=1;fillColor=#fff7e0;strokeColor=#e6cf8c;strokeWidth=1.2;fontSize=13;fontFamily=Noto Sans CJK SC;fontColor=#6b5618;verticalAlign=middle;align=center;" vertex="1" parent="1">
+          <mxGeometry x="360" y="102" width="250" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="n8" value="没有 decoder&lt;br&gt;没有 KL&lt;br&gt;没有随机隐变量" style="rounded=1;absoluteArcSize=1;arcSize=8;whiteSpace=wrap;html=1;fillColor=#fcebe9;strokeColor=#eeb0a9;strokeWidth=1.2;fontSize=13;fontFamily=Noto Sans CJK SC;fontStyle=1;fontColor=#7a2c22;verticalAlign=middle;align=center;" vertex="1" parent="1">
+          <mxGeometry x="360" y="244" width="250" height="78" as="geometry" />
+        </mxCell>
+        <mxCell id="e1" style="edgeStyle=orthogonalEdgeStyle;rounded=1;html=1;jettySize=auto;orthogonalLoop=1;strokeWidth=1.4;endArrow=blockThin;endFill=1;endSize=8;fontSize=11;fontFamily=Noto Sans CJK SC;fontColor=#64748b;strokeColor=#94a3b8;exitX=1;exitY=0.5;entryX=0;entryY=0.3;" edge="1" parent="1" source="n2" target="n7">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

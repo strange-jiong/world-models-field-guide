@@ -1,0 +1,46 @@
+<mxfile host="app.diagrams.net" agent="kiro-drawio-skill" type="device">
+  <diagram id="d1" name="Page-1">
+    <mxGraphModel dx="800" dy="600" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="700" pageHeight="437" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="n1" value="o_t" style="rounded=1;absoluteArcSize=1;arcSize=8;whiteSpace=wrap;html=1;fillColor=#f4f5f7;strokeColor=#ccd2d9;strokeWidth=1.2;fontSize=13;fontFamily=Noto Sans CJK SC;fontColor=#3b4149;verticalAlign=middle;align=center;" vertex="1" parent="1">
+          <mxGeometry x="40" y="40" width="150" height="52" as="geometry" />
+        </mxCell>
+        <mxCell id="n2" value="o_t+1" style="rounded=1;absoluteArcSize=1;arcSize=8;whiteSpace=wrap;html=1;fillColor=#f4f5f7;strokeColor=#ccd2d9;strokeWidth=1.2;fontSize=13;fontFamily=Noto Sans CJK SC;fontColor=#3b4149;verticalAlign=middle;align=center;" vertex="1" parent="1">
+          <mxGeometry x="40" y="132" width="150" height="52" as="geometry" />
+        </mxCell>
+        <mxCell id="n3" value="LAM&lt;br&gt;一个 VQ-VAE" style="rounded=1;absoluteArcSize=1;arcSize=8;whiteSpace=wrap;html=1;fillColor=#f2ecfa;strokeColor=#c6b3e2;strokeWidth=1.2;fontSize=13;fontFamily=Noto Sans CJK SC;fontStyle=1;fontColor=#45306b;verticalAlign=middle;align=center;" vertex="1" parent="1">
+          <mxGeometry x="250" y="86" width="150" height="52" as="geometry" />
+        </mxCell>
+        <mxCell id="n4" value="离散 latent action&lt;br&gt;词表只有 8" style="rounded=1;absoluteArcSize=1;arcSize=8;whiteSpace=wrap;html=1;fillColor=#e7f5ea;strokeColor=#aed6b8;strokeWidth=1.2;fontSize=13;fontFamily=Noto Sans CJK SC;fontStyle=1;fontColor=#1f4a26;verticalAlign=middle;align=center;" vertex="1" parent="1">
+          <mxGeometry x="460" y="86" width="175" height="52" as="geometry" />
+        </mxCell>
+        <mxCell id="n5" value="训练要求：用 o_t + 这个 latent action 能重建出 o_t+1" style="rounded=1;absoluteArcSize=1;arcSize=8;whiteSpace=wrap;html=1;fillColor=#fff7e0;strokeColor=#e6cf8c;strokeWidth=1.2;fontSize=13;fontFamily=Noto Sans CJK SC;fontColor=#6b5618;verticalAlign=middle;align=center;" vertex="1" parent="1">
+          <mxGeometry x="40" y="214.8" width="490" height="52" as="geometry" />
+        </mxCell>
+        <mxCell id="n6" value="训完丢掉 LAM 的 encoder，让用户直接指定那 8 个 id 来控制&lt;br&gt;←── 这就是「动作」" style="rounded=1;absoluteArcSize=1;arcSize=8;whiteSpace=wrap;html=1;fillColor=#fdeede;strokeColor=#eec28c;strokeWidth=1.2;fontSize=13;fontFamily=Noto Sans CJK SC;fontStyle=1;fontColor=#7a4a12;verticalAlign=middle;align=center;" vertex="1" parent="1">
+          <mxGeometry x="40" y="297.6" width="490" height="58" as="geometry" />
+        </mxCell>
+        <mxCell id="t7" value="词表极小 → 模型被迫把「所有能发生的变化」归纳成几个主要控制维度，结果真的对应 上/下/左/右/跳" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;fontSize=12;fontFamily=Noto Sans CJK SC;fontStyle=1;fontColor=#334155;" vertex="1" parent="1">
+          <mxGeometry x="40" y="371.2" width="620" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="e1" style="edgeStyle=orthogonalEdgeStyle;rounded=1;html=1;jettySize=auto;orthogonalLoop=1;strokeWidth=1.4;endArrow=blockThin;endFill=1;endSize=8;fontSize=11;fontFamily=Noto Sans CJK SC;fontColor=#64748b;strokeColor=#94a3b8;exitX=1;exitY=0.5;entryX=0;entryY=0.25;" edge="1" parent="1" source="n1" target="n3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="e2" style="edgeStyle=orthogonalEdgeStyle;rounded=1;html=1;jettySize=auto;orthogonalLoop=1;strokeWidth=1.4;endArrow=blockThin;endFill=1;endSize=8;fontSize=11;fontFamily=Noto Sans CJK SC;fontColor=#64748b;strokeColor=#94a3b8;exitX=1;exitY=0.5;entryX=0;entryY=0.75;" edge="1" parent="1" source="n2" target="n3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="e3" style="edgeStyle=orthogonalEdgeStyle;rounded=1;html=1;jettySize=auto;orthogonalLoop=1;strokeWidth=1.4;endArrow=blockThin;endFill=1;endSize=8;fontSize=11;fontFamily=Noto Sans CJK SC;fontColor=#64748b;strokeColor=#94a3b8;" edge="1" parent="1" source="n3" target="n4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="e4" style="edgeStyle=orthogonalEdgeStyle;rounded=1;html=1;jettySize=auto;orthogonalLoop=1;strokeWidth=1.4;endArrow=blockThin;endFill=1;endSize=8;fontSize=11;fontFamily=Noto Sans CJK SC;fontColor=#64748b;strokeColor=#94a3b8;exitX=0.5;exitY=1;entryX=0.85;entryY=0;" edge="1" parent="1" source="n4" target="n5">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="e5" style="edgeStyle=orthogonalEdgeStyle;rounded=1;html=1;jettySize=auto;orthogonalLoop=1;strokeWidth=1.4;endArrow=blockThin;endFill=1;endSize=8;fontSize=11;fontFamily=Noto Sans CJK SC;fontColor=#64748b;strokeColor=#94a3b8;" edge="1" parent="1" source="n5" target="n6">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

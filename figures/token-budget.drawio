@@ -1,0 +1,58 @@
+<mxfile host="app.diagrams.net" agent="kiro-drawio-skill" type="device">
+  <diagram id="d1" name="Page-1">
+    <mxGraphModel dx="800" dy="600" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1216" pageHeight="674" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="t1" value="朴素做法" style="text;html=1;strokeColor=none;fillColor=none;align=right;verticalAlign=middle;whiteSpace=wrap;fontSize=13;fontFamily=Noto Sans CJK SC;fontStyle=1;fontColor=#334155;" vertex="1" parent="1">
+          <mxGeometry x="18.3" y="195" width="150" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="t2" value="Δ-IRIS" style="text;html=1;strokeColor=none;fillColor=none;align=right;verticalAlign=middle;whiteSpace=wrap;fontSize=13;fontFamily=Noto Sans CJK SC;fontStyle=1;fontColor=#334155;" vertex="1" parent="1">
+          <mxGeometry x="18.3" y="281" width="150" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="t3" value="iVideoGPT" style="text;html=1;strokeColor=none;fillColor=none;align=right;verticalAlign=middle;whiteSpace=wrap;fontSize=13;fontFamily=Noto Sans CJK SC;fontStyle=1;fontColor=#334155;" vertex="1" parent="1">
+          <mxGeometry x="18.3" y="367" width="150" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="n4" value="帧1&lt;br&gt;256 tok" style="rounded=1;absoluteArcSize=1;arcSize=8;whiteSpace=wrap;html=1;fillColor=#fcebe9;strokeColor=#eeb0a9;strokeWidth=1.2;fontSize=13;fontFamily=Noto Sans CJK SC;fontColor=#7a2c22;verticalAlign=middle;align=center;" vertex="1" parent="1">
+          <mxGeometry x="195" y="195" width="160" height="52" as="geometry" />
+        </mxCell>
+        <mxCell id="n5" value="帧2&lt;br&gt;256 tok" style="rounded=1;absoluteArcSize=1;arcSize=8;whiteSpace=wrap;html=1;fillColor=#fcebe9;strokeColor=#eeb0a9;strokeWidth=1.2;fontSize=13;fontFamily=Noto Sans CJK SC;fontColor=#7a2c22;verticalAlign=middle;align=center;" vertex="1" parent="1">
+          <mxGeometry x="381" y="195" width="160" height="52" as="geometry" />
+        </mxCell>
+        <mxCell id="n6" value="帧3&lt;br&gt;256 tok" style="rounded=1;absoluteArcSize=1;arcSize=8;whiteSpace=wrap;html=1;fillColor=#fcebe9;strokeColor=#eeb0a9;strokeWidth=1.2;fontSize=13;fontFamily=Noto Sans CJK SC;fontColor=#7a2c22;verticalAlign=middle;align=center;" vertex="1" parent="1">
+          <mxGeometry x="567" y="195" width="160" height="52" as="geometry" />
+        </mxCell>
+        <mxCell id="n7" value="帧1&lt;br&gt;256 tok" style="rounded=1;absoluteArcSize=1;arcSize=8;whiteSpace=wrap;html=1;fillColor=#fcebe9;strokeColor=#eeb0a9;strokeWidth=1.2;fontSize=13;fontFamily=Noto Sans CJK SC;fontColor=#7a2c22;verticalAlign=middle;align=center;" vertex="1" parent="1">
+          <mxGeometry x="195" y="281" width="160" height="52" as="geometry" />
+        </mxCell>
+        <mxCell id="n8" value="帧2&lt;br&gt;4 tok" style="rounded=1;absoluteArcSize=1;arcSize=8;whiteSpace=wrap;html=1;fillColor=#e7f5ea;strokeColor=#aed6b8;strokeWidth=1.2;fontSize=13;fontFamily=Noto Sans CJK SC;fontColor=#1f4a26;verticalAlign=middle;align=center;" vertex="1" parent="1">
+          <mxGeometry x="381" y="281" width="74" height="52" as="geometry" />
+        </mxCell>
+        <mxCell id="n9" value="帧3&lt;br&gt;4 tok" style="rounded=1;absoluteArcSize=1;arcSize=8;whiteSpace=wrap;html=1;fillColor=#e7f5ea;strokeColor=#aed6b8;strokeWidth=1.2;fontSize=13;fontFamily=Noto Sans CJK SC;fontColor=#1f4a26;verticalAlign=middle;align=center;" vertex="1" parent="1">
+          <mxGeometry x="567" y="281" width="74" height="52" as="geometry" />
+        </mxCell>
+        <mxCell id="n10" value="context&lt;br&gt;16×16 = 256" style="rounded=1;absoluteArcSize=1;arcSize=8;whiteSpace=wrap;html=1;fillColor=#fcebe9;strokeColor=#eeb0a9;strokeWidth=1.2;fontSize=13;fontFamily=Noto Sans CJK SC;fontColor=#7a2c22;verticalAlign=middle;align=center;" vertex="1" parent="1">
+          <mxGeometry x="195" y="367" width="160" height="52" as="geometry" />
+        </mxCell>
+        <mxCell id="n11" value="动态帧&lt;br&gt;4×4 = 16" style="rounded=1;absoluteArcSize=1;arcSize=8;whiteSpace=wrap;html=1;fillColor=#e7f5ea;strokeColor=#aed6b8;strokeWidth=1.2;fontSize=13;fontFamily=Noto Sans CJK SC;fontColor=#1f4a26;verticalAlign=middle;align=center;" vertex="1" parent="1">
+          <mxGeometry x="381" y="367" width="74" height="52" as="geometry" />
+        </mxCell>
+        <mxCell id="n12" value="动态帧&lt;br&gt;16" style="rounded=1;absoluteArcSize=1;arcSize=8;whiteSpace=wrap;html=1;fillColor=#e7f5ea;strokeColor=#aed6b8;strokeWidth=1.2;fontSize=13;fontFamily=Noto Sans CJK SC;fontColor=#1f4a26;verticalAlign=middle;align=center;" vertex="1" parent="1">
+          <mxGeometry x="567" y="367" width="74" height="52" as="geometry" />
+        </mxCell>
+        <mxCell id="note13" value="相邻帧 90% 内容重复，纯浪费" style="rounded=1;absoluteArcSize=1;arcSize=8;whiteSpace=wrap;html=1;fillColor=#fff7e0;strokeColor=#e6cf8c;strokeWidth=1;fontSize=12;fontFamily=Noto Sans CJK SC;fontColor=#6b5618;align=left;verticalAlign=middle;spacingLeft=10;spacingRight=8;" vertex="1" parent="1">
+          <mxGeometry x="771.6" y="195" width="250" height="56" as="geometry" />
+        </mxCell>
+        <mxCell id="note14" value="只编码「给定 o_t 和 a_t 后无法推出的那部分」&lt;br&gt;官方配置 4 token/帧，词表 1024" style="rounded=1;absoluteArcSize=1;arcSize=8;whiteSpace=wrap;html=1;fillColor=#fff7e0;strokeColor=#e6cf8c;strokeWidth=1;fontSize=12;fontFamily=Noto Sans CJK SC;fontColor=#6b5618;align=left;verticalAlign=middle;spacingLeft=10;spacingRight=8;" vertex="1" parent="1">
+          <mxGeometry x="771.6" y="281" width="250" height="62" as="geometry" />
+        </mxCell>
+        <mxCell id="note15" value="后续帧经 cross-attention 看 context，稀疏编码" style="rounded=1;absoluteArcSize=1;arcSize=8;whiteSpace=wrap;html=1;fillColor=#fff7e0;strokeColor=#e6cf8c;strokeWidth=1;fontSize=12;fontFamily=Noto Sans CJK SC;fontColor=#6b5618;align=left;verticalAlign=middle;spacingLeft=10;spacingRight=8;" vertex="1" parent="1">
+          <mxGeometry x="771.6" y="367" width="250" height="56" as="geometry" />
+        </mxCell>
+        <mxCell id="t16" value="方框宽度 ∝ token 数。共同思路：只编码变化量" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;fontSize=12;fontFamily=Noto Sans CJK SC;fontStyle=1;fontColor=#334155;" vertex="1" parent="1">
+          <mxGeometry x="18.3" y="453" width="520" height="26" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

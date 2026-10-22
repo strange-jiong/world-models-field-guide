@@ -1,0 +1,40 @@
+<mxfile host="app.diagrams.net" agent="kiro-drawio-skill" type="device">
+  <diagram id="d1" name="Page-1">
+    <mxGraphModel dx="800" dy="600" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="651" pageHeight="424" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="n1" value="OpenDV-YouTube&lt;br&gt;1700+ 小时&lt;br&gt;无动作标注" style="rounded=1;absoluteArcSize=1;arcSize=8;whiteSpace=wrap;html=1;fillColor=#e7f5ea;strokeColor=#aed6b8;strokeWidth=1.2;fontSize=13;fontFamily=Noto Sans CJK SC;fontColor=#1f4a26;verticalAlign=middle;align=center;" vertex="1" parent="1">
+          <mxGeometry x="40" y="40" width="185" height="76" as="geometry" />
+        </mxCell>
+        <mxCell id="n2" value="阶段一：微调 Stable Video Diffusion&lt;br&gt;学真实交通动态与高保真细节&lt;br&gt;（此时还不可控）" style="rounded=1;absoluteArcSize=1;arcSize=8;whiteSpace=wrap;html=1;fillColor=#f2ecfa;strokeColor=#c6b3e2;strokeWidth=1.2;fontSize=13;fontFamily=Noto Sans CJK SC;fontColor=#45306b;verticalAlign=middle;align=center;" vertex="1" parent="1">
+          <mxGeometry x="291" y="40" width="320" height="76" as="geometry" />
+        </mxCell>
+        <mxCell id="n3" value="nuPlan 等&lt;br&gt;带 ego 动作标注&lt;br&gt;数据量小" style="rounded=1;absoluteArcSize=1;arcSize=8;whiteSpace=wrap;html=1;fillColor=#e8f0fe;strokeColor=#aec5ea;strokeWidth=1.2;fontSize=13;fontFamily=Noto Sans CJK SC;fontColor=#1c3d6b;verticalAlign=middle;align=center;" vertex="1" parent="1">
+          <mxGeometry x="40" y="146" width="185" height="76" as="geometry" />
+        </mxCell>
+        <mxCell id="n4" value="阶段二：冻结大部分骨干&lt;br&gt;只训练动作条件分支&lt;br&gt;（学听指令，不破坏泛化）" style="rounded=1;absoluteArcSize=1;arcSize=8;whiteSpace=wrap;html=1;fillColor=#fdeede;strokeColor=#eec28c;strokeWidth=1.2;fontSize=13;fontFamily=Noto Sans CJK SC;fontColor=#7a4a12;verticalAlign=middle;align=center;" vertex="1" parent="1">
+          <mxGeometry x="291" y="146" width="320" height="76" as="geometry" />
+        </mxCell>
+        <mxCell id="n5" value="可控的驾驶世界模型&lt;br&gt;支持 指令 / 目标点 / 轨迹 / 转向角 / 速度 五种粒度" style="rounded=1;absoluteArcSize=1;arcSize=8;whiteSpace=wrap;html=1;fillColor=#fff7e0;strokeColor=#e6cf8c;strokeWidth=1.2;fontSize=13;fontFamily=Noto Sans CJK SC;fontStyle=1;fontColor=#6b5618;verticalAlign=middle;align=center;" vertex="1" parent="1">
+          <mxGeometry x="291" y="262.6" width="320" height="62" as="geometry" />
+        </mxCell>
+        <mxCell id="t6" value="配方：海量无标注数据学动态 → 少量标注数据学控制" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;fontSize=12;fontFamily=Noto Sans CJK SC;fontStyle=1;fontColor=#334155;" vertex="1" parent="1">
+          <mxGeometry x="40" y="358" width="560" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="e1" style="edgeStyle=orthogonalEdgeStyle;rounded=1;html=1;jettySize=auto;orthogonalLoop=1;strokeWidth=1.4;endArrow=blockThin;endFill=1;endSize=8;fontSize=11;fontFamily=Noto Sans CJK SC;fontColor=#64748b;strokeColor=#94a3b8;" edge="1" parent="1" source="n1" target="n2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="e2" style="edgeStyle=orthogonalEdgeStyle;rounded=1;html=1;jettySize=auto;orthogonalLoop=1;strokeWidth=1.4;endArrow=blockThin;endFill=1;endSize=8;fontSize=11;fontFamily=Noto Sans CJK SC;fontColor=#64748b;strokeColor=#94a3b8;" edge="1" parent="1" source="n3" target="n4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="e3" style="edgeStyle=orthogonalEdgeStyle;rounded=1;html=1;jettySize=auto;orthogonalLoop=1;strokeWidth=1.4;endArrow=blockThin;endFill=1;endSize=8;fontSize=11;fontFamily=Noto Sans CJK SC;fontColor=#64748b;strokeColor=#94a3b8;" edge="1" parent="1" source="n2" target="n4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="e4" style="edgeStyle=orthogonalEdgeStyle;rounded=1;html=1;jettySize=auto;orthogonalLoop=1;strokeWidth=1.4;endArrow=blockThin;endFill=1;endSize=8;fontSize=11;fontFamily=Noto Sans CJK SC;fontColor=#64748b;strokeColor=#94a3b8;" edge="1" parent="1" source="n4" target="n5">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

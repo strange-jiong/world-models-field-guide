@@ -1,0 +1,139 @@
+/* article.md -> PDF 的排版样式（供 pandoc + Chrome print-to-pdf 使用） */
+
+@page {
+  size: A4;
+  margin: 18mm 16mm 20mm 16mm;
+}
+
+html { -webkit-print-color-adjust: exact; print-color-adjust: exact; }
+
+body {
+  font-family: "Noto Sans CJK SC", "Source Han Sans SC", "WenQuanYi Zen Hei",
+               "DejaVu Sans", sans-serif;
+  font-size: 10.5pt;
+  line-height: 1.78;
+  color: #1a1a1a;
+  margin: 0 auto;
+  max-width: 100%;
+  text-align: justify;
+  word-wrap: break-word;
+}
+
+/* ---------- 标题 ---------- */
+h1 {
+  font-size: 22pt;
+  line-height: 1.35;
+  text-align: center;
+  margin: 0 0 6mm;
+  padding-bottom: 4mm;
+  border-bottom: 2.5px solid #333;
+  break-after: avoid;
+}
+h2 {
+  font-size: 15pt;
+  margin: 9mm 0 3.5mm;
+  padding: 2mm 0 1.5mm;
+  border-bottom: 1.2px solid #bbb;
+  break-after: avoid;
+  break-inside: avoid;
+}
+h3 {
+  font-size: 12.5pt;
+  margin: 6mm 0 2.5mm;
+  color: #16365c;
+  break-after: avoid;
+}
+h1, h2, h3 { text-align: left; }
+
+/* ---------- 正文元素 ---------- */
+p { margin: 0 0 3mm; orphans: 2; widows: 2; }
+
+strong { color: #0b0b0b; }
+
+a { color: #1a5fb4; text-decoration: none; word-break: break-all; }
+
+ul, ol { margin: 0 0 3.5mm; padding-left: 7mm; }
+li { margin-bottom: 1.2mm; }
+
+hr {
+  border: none;
+  border-top: 1px solid #ddd;
+  margin: 7mm 0;
+}
+
+blockquote {
+  margin: 4mm 0;
+  padding: 2.5mm 4mm;
+  border-left: 3.5px solid #6c8ebf;
+  background: #f4f8fc;
+  color: #2a2a2a;
+  break-inside: avoid;
+}
+blockquote p:last-child { margin-bottom: 0; }
+
+code {
+  font-family: "DejaVu Sans Mono", "Noto Sans Mono CJK SC", monospace;
+  font-size: 0.88em;
+  background: #f2f2f4;
+  padding: 0.5mm 1.2mm;
+  border-radius: 2px;
+  word-break: break-all;
+}
+
+/* ---------- 配图 ---------- */
+figure {
+  margin: 5mm 0 6mm;
+  text-align: center;
+  break-inside: avoid;
+  page-break-inside: avoid;
+}
+figure img, p > img {
+  max-width: 100%;
+  max-height: 215mm;      /* 不超过一页可用高度，避免被截断 */
+  height: auto;
+  display: block;
+  margin: 0 auto;
+}
+figcaption {
+  margin-top: 2.5mm;
+  font-size: 8.8pt;
+  color: #5a5a5a;
+  text-align: center;
+  line-height: 1.5;
+}
+
+/* ---------- 表格 ---------- */
+/* pandoc 1.19 会按 markdown 源码里分隔行破折号的字数去推算列宽，
+   `|---|---|---|` 会被算成 width:17% 这种窄条。强制覆盖掉。 */
+table { width: 100% !important; table-layout: auto !important; }
+table col { width: auto !important; }
+
+table {
+  border-collapse: collapse;
+  margin: 4mm 0 5mm;
+  font-size: 9pt;
+  line-height: 1.55;
+  break-inside: auto;
+}
+caption { caption-side: top; font-size: 8.8pt; color: #5a5a5a; margin-bottom: 1.5mm; }
+th, td {
+  border: 1px solid #ccc;
+  padding: 1.6mm 2.2mm;
+  text-align: left;
+  vertical-align: top;
+  word-wrap: break-word;
+}
+th { background: #eef2f7; font-weight: 600; }
+tr { break-inside: avoid; }
+tbody tr:nth-child(even) { background: #fafafa; }
+
+/* ---------- 公式 ---------- */
+math { font-size: 1.04em; }
+
+/* pandoc 把行间公式输出成 <p><math display="block">，
+   要居中得作用在外层 <p> 上（body 的 justify 会把它顶到左边） */
+p:has(> math[display="block"]) {
+  text-align: center;
+  margin: 4mm 0 4.5mm;
+}
+math[display="block"] { margin: 0 auto; }

@@ -1,0 +1,49 @@
+<mxfile host="app.diagrams.net" agent="kiro-drawio-skill" type="device">
+  <diagram id="d1" name="Page-1">
+    <mxGraphModel dx="800" dy="600" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="730" pageHeight="370" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="n1" value="想用海量无标注视频训 action-conditioned 世界模型" style="rounded=1;absoluteArcSize=1;arcSize=8;whiteSpace=wrap;html=1;fillColor=#f4f5f7;strokeColor=#ccd2d9;strokeWidth=1.2;fontSize=13;fontFamily=Noto Sans CJK SC;fontStyle=1;fontColor=#3b4149;verticalAlign=middle;align=center;" vertex="1" parent="1">
+          <mxGeometry x="40" y="40" width="650" height="58" as="geometry" />
+        </mxCell>
+        <mxCell id="n2" value="① 找带标注的大数据&lt;br&gt;OpenAI VPT 的 Minecraft&lt;br&gt;contractor 数据，数千小时&lt;br&gt;带完整键鼠标注" style="rounded=1;absoluteArcSize=1;arcSize=8;whiteSpace=wrap;html=1;fillColor=#e8f0fe;strokeColor=#aec5ea;strokeWidth=1.2;fontSize=13;fontFamily=Noto Sans CJK SC;fontColor=#1c3d6b;verticalAlign=middle;align=center;" vertex="1" parent="1">
+          <mxGeometry x="40" y="144" width="190" height="92" as="geometry" />
+        </mxCell>
+        <mxCell id="n3" value="② 混合训练&lt;br&gt;iVideoGPT：有动作 / 无动作&lt;br&gt;混在一起训，&lt;br&gt;无动作时条件置零" style="rounded=1;absoluteArcSize=1;arcSize=8;whiteSpace=wrap;html=1;fillColor=#fdeede;strokeColor=#eec28c;strokeWidth=1.2;fontSize=13;fontFamily=Noto Sans CJK SC;fontColor=#7a4a12;verticalAlign=middle;align=center;" vertex="1" parent="1">
+          <mxGeometry x="270" y="144" width="190" height="92" as="geometry" />
+        </mxCell>
+        <mxCell id="n4" value="③ 自己发明动作&lt;br&gt;Genie：从 (o_t, o_t+1) 反推&lt;br&gt;一个 8 类的离散&lt;br&gt;latent action" style="rounded=1;absoluteArcSize=1;arcSize=8;whiteSpace=wrap;html=1;fillColor=#e7f5ea;strokeColor=#aed6b8;strokeWidth=1.2;fontSize=13;fontFamily=Noto Sans CJK SC;fontColor=#1f4a26;verticalAlign=middle;align=center;" vertex="1" parent="1">
+          <mxGeometry x="500" y="144" width="190" height="92" as="geometry" />
+        </mxCell>
+        <mxCell id="n5" value="Oasis · MineWorld&lt;br&gt;Dreamer 4 都吃它" style="rounded=1;absoluteArcSize=1;arcSize=8;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#dde2e8;strokeWidth=1.2;fontSize=13;fontFamily=Noto Sans CJK SC;fontColor=#22262b;verticalAlign=middle;align=center;" vertex="1" parent="1">
+          <mxGeometry x="40" y="274" width="190" height="56" as="geometry" />
+        </mxCell>
+        <mxCell id="n6" value="机器人操作域&lt;br&gt;跨数据集泛化" style="rounded=1;absoluteArcSize=1;arcSize=8;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#dde2e8;strokeWidth=1.2;fontSize=13;fontFamily=Noto Sans CJK SC;fontColor=#22262b;verticalAlign=middle;align=center;" vertex="1" parent="1">
+          <mxGeometry x="270" y="274" width="190" height="56" as="geometry" />
+        </mxCell>
+        <mxCell id="n7" value="Genie 1/2/3&lt;br&gt;LAPA 等 VLA 工作" style="rounded=1;absoluteArcSize=1;arcSize=8;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#dde2e8;strokeWidth=1.2;fontSize=13;fontFamily=Noto Sans CJK SC;fontColor=#22262b;verticalAlign=middle;align=center;" vertex="1" parent="1">
+          <mxGeometry x="500" y="274" width="190" height="56" as="geometry" />
+        </mxCell>
+        <mxCell id="e1" style="edgeStyle=orthogonalEdgeStyle;rounded=1;html=1;jettySize=auto;orthogonalLoop=1;strokeWidth=1.4;endArrow=blockThin;endFill=1;endSize=8;fontSize=11;fontFamily=Noto Sans CJK SC;fontColor=#64748b;strokeColor=#94a3b8;exitX=0.15;exitY=1;entryX=0.5;entryY=0;" edge="1" parent="1" source="n1" target="n2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="e2" style="edgeStyle=orthogonalEdgeStyle;rounded=1;html=1;jettySize=auto;orthogonalLoop=1;strokeWidth=1.4;endArrow=blockThin;endFill=1;endSize=8;fontSize=11;fontFamily=Noto Sans CJK SC;fontColor=#64748b;strokeColor=#94a3b8;exitX=0.5;exitY=1;entryX=0.5;entryY=0;" edge="1" parent="1" source="n1" target="n3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="e3" style="edgeStyle=orthogonalEdgeStyle;rounded=1;html=1;jettySize=auto;orthogonalLoop=1;strokeWidth=1.4;endArrow=blockThin;endFill=1;endSize=8;fontSize=11;fontFamily=Noto Sans CJK SC;fontColor=#64748b;strokeColor=#94a3b8;exitX=0.85;exitY=1;entryX=0.5;entryY=0;" edge="1" parent="1" source="n1" target="n4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="e4" style="edgeStyle=orthogonalEdgeStyle;rounded=1;html=1;jettySize=auto;orthogonalLoop=1;strokeWidth=1.4;endArrow=blockThin;endFill=1;endSize=8;fontSize=11;fontFamily=Noto Sans CJK SC;fontColor=#64748b;strokeColor=#94a3b8;" edge="1" parent="1" source="n2" target="n5">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="e5" style="edgeStyle=orthogonalEdgeStyle;rounded=1;html=1;jettySize=auto;orthogonalLoop=1;strokeWidth=1.4;endArrow=blockThin;endFill=1;endSize=8;fontSize=11;fontFamily=Noto Sans CJK SC;fontColor=#64748b;strokeColor=#94a3b8;" edge="1" parent="1" source="n3" target="n6">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="e6" style="edgeStyle=orthogonalEdgeStyle;rounded=1;html=1;jettySize=auto;orthogonalLoop=1;strokeWidth=1.4;endArrow=blockThin;endFill=1;endSize=8;fontSize=11;fontFamily=Noto Sans CJK SC;fontColor=#64748b;strokeColor=#94a3b8;" edge="1" parent="1" source="n4" target="n7">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

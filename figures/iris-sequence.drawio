@@ -1,0 +1,87 @@
+<mxfile host="app.diagrams.net" agent="kiro-drawio-skill" type="device">
+  <diagram id="d1" name="Page-1">
+    <mxGraphModel dx="800" dy="600" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="807" pageHeight="528" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="band13" value="第 t 帧" style="rounded=1;absoluteArcSize=1;arcSize=10;whiteSpace=wrap;html=1;fillColor=#f7fafe;strokeColor=#dde7f8;strokeWidth=1;fontSize=10;fontFamily=Noto Sans CJK SC;fontStyle=1;fontColor=#1c3d6b;verticalAlign=bottom;align=left;spacingLeft=10;spacingTop=5;spacingBottom=5;" vertex="1" parent="1">
+          <mxGeometry x="33" y="129" width="356" height="76" as="geometry" />
+        </mxCell>
+        <mxCell id="band14" value="第 t+1 帧" style="rounded=1;absoluteArcSize=1;arcSize=10;whiteSpace=wrap;html=1;fillColor=#f7fafe;strokeColor=#dde7f8;strokeWidth=1;fontSize=10;fontFamily=Noto Sans CJK SC;fontStyle=1;fontColor=#1c3d6b;verticalAlign=bottom;align=left;spacingLeft=10;spacingTop=5;spacingBottom=5;" vertex="1" parent="1">
+          <mxGeometry x="411" y="129" width="356" height="76" as="geometry" />
+        </mxCell>
+        <mxCell id="n1" value="图像" style="rounded=1;absoluteArcSize=1;arcSize=8;whiteSpace=wrap;html=1;fillColor=#f4f5f7;strokeColor=#ccd2d9;strokeWidth=1.2;fontSize=12;fontFamily=Noto Sans CJK SC;fontColor=#3b4149;verticalAlign=middle;align=center;" vertex="1" parent="1">
+          <mxGeometry x="40" y="40" width="62" height="44" as="geometry" />
+        </mxCell>
+        <mxCell id="n2" value="z¹" style="rounded=1;absoluteArcSize=1;arcSize=8;whiteSpace=wrap;html=1;fillColor=#e8f0fe;strokeColor=#aec5ea;strokeWidth=1.2;fontSize=12;fontFamily=Noto Sans CJK SC;fontColor=#1c3d6b;verticalAlign=middle;align=center;" vertex="1" parent="1">
+          <mxGeometry x="40" y="136" width="62" height="44" as="geometry" />
+        </mxCell>
+        <mxCell id="n3" value="z²" style="rounded=1;absoluteArcSize=1;arcSize=8;whiteSpace=wrap;html=1;fillColor=#e8f0fe;strokeColor=#aec5ea;strokeWidth=1.2;fontSize=12;fontFamily=Noto Sans CJK SC;fontColor=#1c3d6b;verticalAlign=middle;align=center;" vertex="1" parent="1">
+          <mxGeometry x="110" y="136" width="62" height="44" as="geometry" />
+        </mxCell>
+        <mxCell id="n4" value="…" style="rounded=1;absoluteArcSize=1;arcSize=8;whiteSpace=wrap;html=1;fillColor=#e8f0fe;strokeColor=#aec5ea;strokeWidth=1.2;fontSize=12;fontFamily=Noto Sans CJK SC;fontColor=#1c3d6b;verticalAlign=middle;align=center;" vertex="1" parent="1">
+          <mxGeometry x="180" y="136" width="62" height="44" as="geometry" />
+        </mxCell>
+        <mxCell id="n5" value="z¹⁶" style="rounded=1;absoluteArcSize=1;arcSize=8;whiteSpace=wrap;html=1;fillColor=#e8f0fe;strokeColor=#aec5ea;strokeWidth=1.2;fontSize=12;fontFamily=Noto Sans CJK SC;fontColor=#1c3d6b;verticalAlign=middle;align=center;" vertex="1" parent="1">
+          <mxGeometry x="250" y="136" width="62" height="44" as="geometry" />
+        </mxCell>
+        <mxCell id="n6" value="a_t" style="rounded=1;absoluteArcSize=1;arcSize=8;whiteSpace=wrap;html=1;fillColor=#fdeede;strokeColor=#eec28c;strokeWidth=1.2;fontSize=12;fontFamily=Noto Sans CJK SC;fontStyle=1;fontColor=#7a4a12;verticalAlign=middle;align=center;" vertex="1" parent="1">
+          <mxGeometry x="320" y="136" width="62" height="44" as="geometry" />
+        </mxCell>
+        <mxCell id="n7" value="z¹" style="rounded=1;absoluteArcSize=1;arcSize=8;whiteSpace=wrap;html=1;fillColor=#e8f0fe;strokeColor=#aec5ea;strokeWidth=1.2;fontSize=12;fontFamily=Noto Sans CJK SC;fontColor=#1c3d6b;verticalAlign=middle;align=center;" vertex="1" parent="1">
+          <mxGeometry x="418" y="136" width="62" height="44" as="geometry" />
+        </mxCell>
+        <mxCell id="n8" value="z²" style="rounded=1;absoluteArcSize=1;arcSize=8;whiteSpace=wrap;html=1;fillColor=#e8f0fe;strokeColor=#aec5ea;strokeWidth=1.2;fontSize=12;fontFamily=Noto Sans CJK SC;fontColor=#1c3d6b;verticalAlign=middle;align=center;" vertex="1" parent="1">
+          <mxGeometry x="488" y="136" width="62" height="44" as="geometry" />
+        </mxCell>
+        <mxCell id="n9" value="…" style="rounded=1;absoluteArcSize=1;arcSize=8;whiteSpace=wrap;html=1;fillColor=#e8f0fe;strokeColor=#aec5ea;strokeWidth=1.2;fontSize=12;fontFamily=Noto Sans CJK SC;fontColor=#1c3d6b;verticalAlign=middle;align=center;" vertex="1" parent="1">
+          <mxGeometry x="558" y="136" width="62" height="44" as="geometry" />
+        </mxCell>
+        <mxCell id="n10" value="z¹⁶" style="rounded=1;absoluteArcSize=1;arcSize=8;whiteSpace=wrap;html=1;fillColor=#e8f0fe;strokeColor=#aec5ea;strokeWidth=1.2;fontSize=12;fontFamily=Noto Sans CJK SC;fontColor=#1c3d6b;verticalAlign=middle;align=center;" vertex="1" parent="1">
+          <mxGeometry x="628" y="136" width="62" height="44" as="geometry" />
+        </mxCell>
+        <mxCell id="n11" value="a_t+1" style="rounded=1;absoluteArcSize=1;arcSize=8;whiteSpace=wrap;html=1;fillColor=#fdeede;strokeColor=#eec28c;strokeWidth=1.2;fontSize=12;fontFamily=Noto Sans CJK SC;fontStyle=1;fontColor=#7a4a12;verticalAlign=middle;align=center;" vertex="1" parent="1">
+          <mxGeometry x="698" y="136" width="62" height="44" as="geometry" />
+        </mxCell>
+        <mxCell id="t12" value="VQ-VAE：16 token / 帧" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;fontSize=12;fontFamily=Noto Sans CJK SC;fontColor=#334155;" vertex="1" parent="1">
+          <mxGeometry x="92.5" y="80.32" width="230" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="n15" value="causal Transformer（10 层）" style="rounded=1;absoluteArcSize=1;arcSize=8;whiteSpace=wrap;html=1;fillColor=#f2ecfa;strokeColor=#c6b3e2;strokeWidth=1.2;fontSize=12;fontFamily=Noto Sans CJK SC;fontStyle=1;fontColor=#45306b;verticalAlign=middle;align=center;" vertex="1" parent="1">
+          <mxGeometry x="40" y="265.6" width="694" height="44" as="geometry" />
+        </mxCell>
+        <mxCell id="n16" value="下一帧 token" style="rounded=1;absoluteArcSize=1;arcSize=8;whiteSpace=wrap;html=1;fillColor=#e8f0fe;strokeColor=#aec5ea;strokeWidth=1.2;fontSize=12;fontFamily=Noto Sans CJK SC;fontColor=#1c3d6b;verticalAlign=middle;align=center;" vertex="1" parent="1">
+          <mxGeometry x="110" y="385.6" width="150" height="44" as="geometry" />
+        </mxCell>
+        <mxCell id="n17" value="奖励&lt;br&gt;符号 3 类" style="rounded=1;absoluteArcSize=1;arcSize=8;whiteSpace=wrap;html=1;fillColor=#fdeede;strokeColor=#eec28c;strokeWidth=1.2;fontSize=12;fontFamily=Noto Sans CJK SC;fontColor=#7a4a12;verticalAlign=middle;align=center;" vertex="1" parent="1">
+          <mxGeometry x="327" y="385.6" width="125" height="44" as="geometry" />
+        </mxCell>
+        <mxCell id="n18" value="是否结束" style="rounded=1;absoluteArcSize=1;arcSize=8;whiteSpace=wrap;html=1;fillColor=#fcebe9;strokeColor=#eeb0a9;strokeWidth=1.2;fontSize=12;fontFamily=Noto Sans CJK SC;fontColor=#7a2c22;verticalAlign=middle;align=center;" vertex="1" parent="1">
+          <mxGeometry x="495" y="385.6" width="130" height="44" as="geometry" />
+        </mxCell>
+        <mxCell id="t19" value="动作放在该帧视觉 token 之后 = 「看完这一帧后我做了这个动作」" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;fontSize=12;fontFamily=Noto Sans CJK SC;fontStyle=1;fontColor=#334155;" vertex="1" parent="1">
+          <mxGeometry x="40" y="462.4" width="620" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="e1" style="edgeStyle=orthogonalEdgeStyle;rounded=1;html=1;jettySize=auto;orthogonalLoop=1;strokeWidth=1.4;endArrow=blockThin;endFill=1;endSize=8;fontSize=10;fontFamily=Noto Sans CJK SC;fontColor=#64748b;strokeColor=#94a3b8;exitX=0.5;exitY=1;entryX=0.5;entryY=0;" edge="1" parent="1" source="n1" target="n2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="e2" style="edgeStyle=orthogonalEdgeStyle;rounded=1;html=1;jettySize=auto;orthogonalLoop=1;strokeWidth=1.4;endArrow=blockThin;endFill=1;endSize=8;fontSize=10;fontFamily=Noto Sans CJK SC;fontColor=#64748b;strokeColor=#94a3b8;exitX=0.5;exitY=1;entryX=0.5;entryY=0;" edge="1" parent="1" source="n6" target="n15">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="e2l" value="整条序列送入" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];labelBackgroundColor=#ffffff;fontSize=10;fontFamily=Noto Sans CJK SC;fontColor=#64748b;" vertex="1" connectable="0" parent="e2">
+          <mxGeometry x="0" y="-12" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="e3" style="edgeStyle=orthogonalEdgeStyle;rounded=1;html=1;jettySize=auto;orthogonalLoop=1;strokeWidth=1.4;endArrow=blockThin;endFill=1;endSize=8;fontSize=10;fontFamily=Noto Sans CJK SC;fontColor=#64748b;strokeColor=#94a3b8;" edge="1" parent="1" source="n15" target="n16">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="e4" style="edgeStyle=orthogonalEdgeStyle;rounded=1;html=1;jettySize=auto;orthogonalLoop=1;strokeWidth=1.4;endArrow=blockThin;endFill=1;endSize=8;fontSize=10;fontFamily=Noto Sans CJK SC;fontColor=#64748b;strokeColor=#94a3b8;" edge="1" parent="1" source="n15" target="n17">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="e5" style="edgeStyle=orthogonalEdgeStyle;rounded=1;html=1;jettySize=auto;orthogonalLoop=1;strokeWidth=1.4;endArrow=blockThin;endFill=1;endSize=8;fontSize=10;fontFamily=Noto Sans CJK SC;fontColor=#64748b;strokeColor=#94a3b8;" edge="1" parent="1" source="n15" target="n18">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

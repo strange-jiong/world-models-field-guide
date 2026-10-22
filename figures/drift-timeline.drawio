@@ -1,0 +1,58 @@
+<mxfile host="app.diagrams.net" agent="kiro-drawio-skill" type="device">
+  <diagram id="d1" name="Page-1">
+    <mxGraphModel dx="800" dy="600" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="930" pageHeight="679" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="t1" value="2015" style="text;html=1;strokeColor=none;fillColor=none;align=right;verticalAlign=middle;whiteSpace=wrap;fontSize=14;fontFamily=Noto Sans CJK SC;fontStyle=1;fontColor=#334155;" vertex="1" parent="1">
+          <mxGeometry x="12.2" y="155" width="110" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="n2" value="多步 curriculum / scheduled sampling" style="rounded=1;absoluteArcSize=1;arcSize=8;whiteSpace=wrap;html=1;fillColor=#f4f5f7;strokeColor=#ccd2d9;strokeWidth=1.2;fontSize=13;fontFamily=Noto Sans CJK SC;fontColor=#3b4149;verticalAlign=middle;align=center;" vertex="1" parent="1">
+          <mxGeometry x="155" y="155" width="300" height="48" as="geometry" />
+        </mxCell>
+        <mxCell id="t3" value="Oh et al. · CDNA · SimPLe" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;fontSize=12;fontFamily=Noto Sans CJK SC;fontColor=#334155;" vertex="1" parent="1">
+          <mxGeometry x="495" y="155" width="280" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="t4" value="2019" style="text;html=1;strokeColor=none;fillColor=none;align=right;verticalAlign=middle;whiteSpace=wrap;fontSize=14;fontFamily=Noto Sans CJK SC;fontStyle=1;fontColor=#334155;" vertex="1" parent="1">
+          <mxGeometry x="12.2" y="221" width="110" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="n5" value="隐空间多步预测一致性（latent overshooting）" style="rounded=1;absoluteArcSize=1;arcSize=8;whiteSpace=wrap;html=1;fillColor=#e8f0fe;strokeColor=#aec5ea;strokeWidth=1.2;fontSize=13;fontFamily=Noto Sans CJK SC;fontColor=#1c3d6b;verticalAlign=middle;align=center;" vertex="1" parent="1">
+          <mxGeometry x="155" y="221" width="300" height="48" as="geometry" />
+        </mxCell>
+        <mxCell id="t6" value="PlaNet" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;fontSize=12;fontFamily=Noto Sans CJK SC;fontColor=#334155;" vertex="1" parent="1">
+          <mxGeometry x="495" y="221" width="280" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="t7" value="2020" style="text;html=1;strokeColor=none;fillColor=none;align=right;verticalAlign=middle;whiteSpace=wrap;fontSize=14;fontFamily=Noto Sans CJK SC;fontStyle=1;fontColor=#334155;" vertex="1" parent="1">
+          <mxGeometry x="12.2" y="287" width="110" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="n8" value="想象起点取真实状态 + 砍短 horizon" style="rounded=1;absoluteArcSize=1;arcSize=8;whiteSpace=wrap;html=1;fillColor=#e8f0fe;strokeColor=#aec5ea;strokeWidth=1.2;fontSize=13;fontFamily=Noto Sans CJK SC;fontColor=#1c3d6b;verticalAlign=middle;align=center;" vertex="1" parent="1">
+          <mxGeometry x="155" y="287" width="300" height="48" as="geometry" />
+        </mxCell>
+        <mxCell id="t9" value="SimPLe · Dreamer · IRIS" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;fontSize=12;fontFamily=Noto Sans CJK SC;fontColor=#334155;" vertex="1" parent="1">
+          <mxGeometry x="495" y="287" width="280" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="t10" value="2024" style="text;html=1;strokeColor=none;fillColor=none;align=right;verticalAlign=middle;whiteSpace=wrap;fontSize=14;fontFamily=Noto Sans CJK SC;fontStyle=1;fontColor=#334155;" vertex="1" parent="1">
+          <mxGeometry x="12.2" y="353" width="110" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="n11" value="训练时给条件历史帧加噪" style="rounded=1;absoluteArcSize=1;arcSize=8;whiteSpace=wrap;html=1;fillColor=#fcebe9;strokeColor=#eeb0a9;strokeWidth=1.2;fontSize=13;fontFamily=Noto Sans CJK SC;fontColor=#7a2c22;verticalAlign=middle;align=center;" vertex="1" parent="1">
+          <mxGeometry x="155" y="353" width="300" height="48" as="geometry" />
+        </mxCell>
+        <mxCell id="t12" value="DIAMOND · GameNGen" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;fontSize=12;fontFamily=Noto Sans CJK SC;fontColor=#334155;" vertex="1" parent="1">
+          <mxGeometry x="495" y="353" width="280" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="t13" value="2024" style="text;html=1;strokeColor=none;fillColor=none;align=right;verticalAlign=middle;whiteSpace=wrap;fontSize=14;fontFamily=Noto Sans CJK SC;fontStyle=1;fontColor=#334155;" vertex="1" parent="1">
+          <mxGeometry x="12.2" y="419" width="110" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="n14" value="每帧独立噪声水平（Diffusion Forcing）" style="rounded=1;absoluteArcSize=1;arcSize=8;whiteSpace=wrap;html=1;fillColor=#f2ecfa;strokeColor=#c6b3e2;strokeWidth=1.2;fontSize=13;fontFamily=Noto Sans CJK SC;fontColor=#45306b;verticalAlign=middle;align=center;" vertex="1" parent="1">
+          <mxGeometry x="155" y="419" width="300" height="48" as="geometry" />
+        </mxCell>
+        <mxCell id="t15" value="Oasis · Dreamer 4" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;fontSize=12;fontFamily=Noto Sans CJK SC;fontColor=#334155;" vertex="1" parent="1">
+          <mxGeometry x="495" y="419" width="280" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="t16" value="思路是收敛的：从「训练时模仿推理的样子」走到「让训练目标本身等价于推理模式」" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;fontSize=12;fontFamily=Noto Sans CJK SC;fontStyle=1;fontColor=#334155;" vertex="1" parent="1">
+          <mxGeometry x="12.2" y="498.2" width="700" height="26" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

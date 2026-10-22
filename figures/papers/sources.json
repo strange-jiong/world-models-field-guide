@@ -1,0 +1,189 @@
+{
+  "paper-worldmodels-agent": {
+    "arxiv": "1803.10122",
+    "figure": "8",
+    "page": 3,
+    "box": "0.500,0.6400,0.900,0.8020",
+    "paper": "World Models",
+    "authors": "Ha, Schmidhuber",
+    "year": 2018,
+    "url": "https://arxiv.org/abs/1803.10122",
+    "note": "论文插图，版权归原作者；此处为个人学习笔记引用。"
+  },
+  "paper-worldmodels-mdnrnn": {
+    "arxiv": "1803.10122",
+    "figure": "6",
+    "page": 3,
+    "box": "0.000,0.4370,0.480,0.6090",
+    "paper": "World Models",
+    "authors": "Ha, Schmidhuber",
+    "year": 2018,
+    "url": "https://arxiv.org/abs/1803.10122",
+    "note": "论文插图，版权归原作者；此处为个人学习笔记引用。"
+  },
+  "paper-planet-rssm": {
+    "arxiv": "1811.04551",
+    "figure": "2",
+    "page": 4,
+    "box": "0.120,0.0900,0.920,0.2510",
+    "paper": "Learning Latent Dynamics for Planning from Pixels",
+    "authors": "Hafner et al.",
+    "year": 2019,
+    "url": "https://arxiv.org/abs/1811.04551",
+    "note": "论文插图，版权归原作者；此处为个人学习笔记引用。"
+  },
+  "paper-iris-unroll": {
+    "arxiv": "2209.00588",
+    "figure": "1",
+    "page": 2,
+    "box": "0,0.0000,1,0.2955",
+    "paper": "Transformers are Sample-Efficient World Models",
+    "authors": "Micheli, Alonso, Fleuret",
+    "year": 2023,
+    "url": "https://arxiv.org/abs/2209.00588",
+    "note": "论文插图，版权归原作者；此处为个人学习笔记引用。"
+  },
+  "paper-tdmpc2-arch": {
+    "arxiv": "2310.16828",
+    "figure": "3",
+    "page": 3,
+    "box": "0.555,0.4900,1.000,0.7000",
+    "paper": "TD-MPC2: Scalable, Robust World Models for Continuous Control",
+    "authors": "Hansen et al.",
+    "year": 2024,
+    "url": "https://arxiv.org/abs/2310.16828",
+    "note": "论文插图，版权归原作者；此处为个人学习笔记引用。"
+  },
+  "paper-dreamer-components": {
+    "arxiv": "1912.01603",
+    "figure": "3",
+    "page": 3,
+    "box": "0,0.0000,1,0.2639",
+    "paper": "Dream to Control: Learning Behaviors by Latent Imagination",
+    "authors": "Hafner et al.",
+    "year": 2020,
+    "url": "https://arxiv.org/abs/1912.01603",
+    "note": "论文插图，版权归原作者；此处为个人学习笔记引用。"
+  },
+  "paper-dreamerv2-wm": {
+    "arxiv": "2010.02193",
+    "figure": "2",
+    "page": 3,
+    "box": "0,0.0720,1,0.3598",
+    "paper": "Mastering Atari with Discrete World Models",
+    "authors": "Hafner et al.",
+    "year": 2021,
+    "url": "https://arxiv.org/abs/2010.02193",
+    "note": "论文插图，版权归原作者；此处为个人学习笔记引用。"
+  },
+  "paper-dreamerv3-training": {
+    "arxiv": "2301.04104",
+    "figure": "3",
+    "page": 3,
+    "box": "0,0.0000,1,0.3321",
+    "paper": "Mastering Diverse Domains through World Models",
+    "authors": "Hafner et al.",
+    "year": 2023,
+    "url": "https://arxiv.org/abs/2301.04104",
+    "note": "论文插图，版权归原作者；此处为个人学习笔记引用。"
+  },
+  "paper-simple-arch": {
+    "arxiv": "1903.00374",
+    "figure": "2",
+    "page": 4,
+    "box": "0,0.0000,1,0.3131",
+    "paper": "Model-Based Reinforcement Learning for Atari",
+    "authors": "Kaiser et al.",
+    "year": 2020,
+    "url": "https://arxiv.org/abs/1903.00374",
+    "note": "论文插图，版权归原作者；此处为个人学习笔记引用。"
+  },
+  "paper-cdna-arch": {
+    "arxiv": "1605.07157",
+    "figure": "1",
+    "page": 3,
+    "box": "0,0.1048,1,0.2790",
+    "paper": "Unsupervised Learning for Physical Interaction through Video Prediction",
+    "authors": "Finn, Goodfellow, Levine",
+    "year": 2016,
+    "url": "https://arxiv.org/abs/1605.07157",
+    "note": "论文插图，版权归原作者；此处为个人学习笔记引用。"
+  },
+  "paper-ivideogpt-arch": {
+    "arxiv": "2405.15223",
+    "figure": "3",
+    "page": 4,
+    "box": "0,0.0000,1,0.2955",
+    "paper": "iVideoGPT: Interactive VideoGPTs are Scalable World Models",
+    "authors": "Wu et al.",
+    "year": 2024,
+    "url": "https://arxiv.org/abs/2405.15223",
+    "note": "论文插图，版权归原作者；此处为个人学习笔记引用。"
+  },
+  "paper-mineworld-arch": {
+    "arxiv": "2504.08388",
+    "figure": "1",
+    "page": 2,
+    "box": "0,0.0000,1,0.2614",
+    "paper": "MineWorld: a Real-Time and Open-Source Interactive World Model on Minecraft",
+    "authors": "Guo et al.",
+    "year": 2025,
+    "url": "https://arxiv.org/abs/2504.08388",
+    "note": "论文插图，版权归原作者；此处为个人学习笔记引用。"
+  },
+  "paper-vista-pipeline": {
+    "arxiv": "2405.17398",
+    "figure": "3",
+    "page": 4,
+    "box": "0,0.0000,1,0.2538",
+    "paper": "Vista: A Generalizable Driving World Model",
+    "authors": "Gao et al.",
+    "year": 2024,
+    "url": "https://arxiv.org/abs/2405.17398",
+    "note": "论文插图，版权归原作者；此处为个人学习笔记引用。"
+  },
+  "paper-dreamer4-design": {
+    "arxiv": "2509.24527",
+    "figure": "2",
+    "page": 4,
+    "box": "0,0.0000,1,0.3232",
+    "paper": "Training Agents Inside of Scalable World Models",
+    "authors": "Hafner et al.",
+    "year": 2025,
+    "url": "https://arxiv.org/abs/2509.24527",
+    "note": "论文插图，版权归原作者；此处为个人学习笔记引用。"
+  },
+  "paper-gamengen-method": {
+    "arxiv": "2408.14837",
+    "figure": "3",
+    "page": 3,
+    "box": "0,0.0000,1,0.3245",
+    "paper": "Diffusion Models Are Real-Time Game Engines",
+    "authors": "Valevski et al.",
+    "year": 2024,
+    "url": "https://arxiv.org/abs/2408.14837",
+    "note": "论文插图，版权归原作者；此处为个人学习笔记引用。"
+  },
+  "paper-diamond-arch": {
+    "arxiv": "2405.12399",
+    "figure": "9",
+    "page": 25,
+    "box": "0.000,0.5650,1.000,0.6760",
+    "paper": "Diffusion for World Modeling: Visual Details Matter in Atari",
+    "authors": "Alonso et al.",
+    "year": 2024,
+    "url": "https://arxiv.org/abs/2405.12399",
+    "note": "论文插图，版权归原作者；此处为个人学习笔记引用。"
+  },
+  "paper-deltairis-ae": {
+    "arxiv": "2406.19320",
+    "figure": "1",
+    "page": 2,
+    "box": "0,0.0750,1,0.3169",
+    "paper": "Efficient World Models with Context-Aware Tokenization",
+    "authors": "Micheli, Alonso, Fleuret",
+    "year": 2024,
+    "url": "https://arxiv.org/abs/2406.19320",
+    "note": "论文插图，版权归原作者；此处为个人学习笔记引用。"
+  }
+}
