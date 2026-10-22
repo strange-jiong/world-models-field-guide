@@ -19,15 +19,19 @@ world-models/
 └── repos/                  # 代码落地目录（git clone 目标）
 ```
 
-## 首次 clone 后要做的一步
+## 配图
 
-`notes/` 里引用了 15 张**论文原图**。这些图的著作权归各篇论文作者，本仓库不收录，需要本地一键重建（会从 arXiv 下载 PDF 到缓存，约 150MB）：
+两套图，都已随仓库提供：
+
+- **自绘配图** `figures/*.svg`（16 张）—— 文章正文用，`.drawio` 源文件一并提供，可直接编辑
+- **论文原图** `figures/papers/paper-*.png`（17 张）—— 笔记里用来对照原文，每张都标注了论文、图号、作者与 arXiv 链接，出处元数据见 `figures/papers/sources.json`
+
+论文原图是从 arXiv PDF 自动裁剪的，想重新生成（或换别的图）：
 
 ```bash
-bash figures/papers/fetch_all.sh
+bash figures/papers/fetch_all.sh        # 重建全部 17 张
+python3 figures/papers/fetch.py list 2209.00588   # 列出某篇的图注与页码，挑新图
 ```
-
-不跑这一步的话，`notes/01` ~ `notes/10` 里的论文架构图会显示为断链；其余内容（自绘配图、正文、`article.pdf`）都不受影响。细节与版权说明见 [figures/papers/README.md](figures/papers/README.md)。
 
 重新生成自绘配图与 PDF：
 

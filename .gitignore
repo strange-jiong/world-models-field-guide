@@ -7,9 +7,5 @@ repos/
 # arXiv PDF 缓存（约 150MB）
 figures/papers/.cache/
 
-# 论文原图：著作权归各篇论文作者，本仓库不收录。
-# 本地用 `bash figures/papers/fetch_all.sh` 一键重建。
-figures/papers/paper-*.png
-
 __pycache__/
 *.pyc
